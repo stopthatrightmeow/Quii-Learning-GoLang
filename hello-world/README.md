@@ -56,6 +56,8 @@ Another way is to use:
 
 I think the specifying of the var is easier to read, and write VS the `:=` which feels a little weird to type out, but it's good to know either way!
 
+> Side note after playing with it a bit more, while the `var` style worked well, I feel like the `:=` isn't _terrible_... but still learning maybe I will change my mind later...
+
 ## Running Tests
 
 Requirements for building your tests:
