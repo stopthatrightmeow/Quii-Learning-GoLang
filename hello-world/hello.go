@@ -1,16 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func Hello() string {
-	return "Hello World"
+const englishHelloPrefix = "Hello, "
+
+func Hello(name string) string {
+	if name == "" {
+		name = "World"
+	}
+	return englishHelloPrefix + name
 }
 
 func main() {
 	// Calling the Hello function
-	fmt.Println(Hello())
+	fmt.Println(Hello(""))
 
-	// Playing with rune literals
-	fmt.Println("\u0009SomeInformationHere")
-	fmt.Println('\u0009')
 }

@@ -1,5 +1,7 @@
 # Hello World
 
+[Hello World](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
+
 ## Rune Literals
 
 OK So the first thing I learned, `'` is not a thing when printing generic items, so when I typed out:
@@ -36,5 +38,40 @@ Where the rune literal with the single quotes, we end up with the integer `9`. I
 ## Writing my first test
 
 Ok so _technically_ it's not my first test, I've written some basic ones before I actually knew what I was doing within Python BUT with Go it is actually my first test. 
+
+
+## Setting variables
+
+So it turns out you can set variables in two separate ways, the first was is:
+
+```
+	got := Hello()
+```
+
+Another way is to use:
+
+```
+	var got = Hello()
+```
+
+I think the specifying of the var is easier to read, and write VS the `:=` which feels a little weird to type out, but it's good to know either way!
+
+## Running Tests
+
+Requirements for building your tests:
+
+- They need to be in a file with a name like XYZ_test.go
+- Test function must start with `Test`
+- Test function takes one argument only `t *testing.T`
+- In order to use the `*testing.T` type you need to `import "testing"`
+
+To test, you need ot build a module by running `go mod init hello`
+
+Then to run your tests you can simply run `go test`
+
+## Go Documentation
+This is a pretty neat feature, you can run `godoc -http :8000` and it will allow you access to your godocs on localhost:8000! Pretty handy, though it's not quite like stack overflow where one can just copy pasta.
+
+Also localhost:8000/pkg will show you all of your installed packages and loclahost:8000/pkg/testing/ is also quite useful. 
 
 
