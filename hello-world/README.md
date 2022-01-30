@@ -77,3 +77,14 @@ This is a pretty neat feature, you can run `godoc -http :8000` and it will allow
 Also localhost:8000/pkg will show you all of your installed packages and loclahost:8000/pkg/testing/ is also quite useful. 
 
 
+## Adding more languages
+
+~~OK so this is where I ran into some problems, the first of which happened to be that when we added the language variable, I was unable to run my tests due to needing a second parameter. Makes sense, honestly, and I solved it by adding blank strings to be passed within my tests.~~
+
+I just need to learn to read better... It literally tells you that you should add blank strings to fill in for the language.
+
+## Final thoughts on Hello World
+
+Honestly I didn't think hello world could get som complex, but learning test driven development was interesting, and quite a bit of fun! Go is starting to make a little bit more sense as well, I'm sure I just need to practice it quite a bit more.
+
+One key thing I learned was writing a function for your testing function through the `assertCorrectMessage` which was pretty neat. Saves you from having to write a bunch of "If got != want` statements.
