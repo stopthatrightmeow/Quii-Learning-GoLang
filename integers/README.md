@@ -37,4 +37,4 @@ This gives you an interesting error stating that this particular test isn't used
 
 ## One last thought...
 
-I figured the `+` piece when I wrote the code instead of following the actual tutorial, I went back and read and was like wtf.. Why are they hard coding `0` or `4` like... that's not how that works. I guess it's just to teach you how you can "cheat" your way to passing a test, something you shouldn't do to begin with.
+I figured the `+` piece when I wrote the code instead of following the actual tutorial, I went back and read and was like wtf.. Why are they hard coding `0` or `4` like... that's not how that works. I guess it's just to teach you how you can "cheat" your way to passing a test, something you shouldn't do to begin
