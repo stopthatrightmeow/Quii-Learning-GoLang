@@ -19,10 +19,12 @@ Just trying to fully understand this code below...
 ```
 
 
-If you write out a function you can see what it prints. I wonder why it ends with a `%`?...
+~If you write out a function you can see what it prints. I wonder why it ends with a `%`?...~
 ```
 01234%                                                                                                                                                               
 ```
+
+OK So I went ahead and wrote a normal for loop both printing each character out and added them to a variable. My only guess, it's a null terminator, but I can't repeat what I did previously in the 5 mins I attempted so I'm just going to move on!
 
 ## Benchmarks
 This is neat, you don't specify a particular number of times your program will be run but instead Go will select a number and run it an appropriate number of times which is pretty neat. 
