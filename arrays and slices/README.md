@@ -28,3 +28,11 @@ AHH there it is... I knew there wasn't a requirement to hard code arrays!... I g
 Well, they are easy. Instead of `[#]` just do `[]` with an array and you have a slice!
 
 I honestly thought that was going to be a whole thing, and I'm really glad it didn't turn out to be one!
+
+## reflect.DeepEqual
+
+It's not "type safe" and will "work" regardless. Which is important to note. 
+
+## After Thoughts
+
+Slices seem to be a lot more usable unless I am being very particular in what I want as far as capacity goes. So far this has been quite a bit of fun, though I think Structs Methods and Interfaces are going to be quite a new concept.
